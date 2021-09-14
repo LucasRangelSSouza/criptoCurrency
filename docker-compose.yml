@@ -1,0 +1,72 @@
+version: '3'
+services:
+  mysql:
+    image: mysql
+    container_name: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports:
+      - "3300:3306"
+    expose:
+      - "3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 789123
+      MYSQL_DATABASE: currency
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: 789123
+    
+    networks: 
+    - default-network
+  
+  getDataApi:
+    build:
+      dockerfile: ./docker/getDataApi.dockerfile
+      context: .
+    image: lucas/getdataapi
+    container_name: getDataApi
+    networks:
+      - default-network
+    depends_on:
+      - "mysql"
+  
+  oneMinuteTicker:
+    build:
+      dockerfile: ./docker/one-minute.dockerfile
+      context: .
+    image: lucas/oneminuteticker
+    container_name: oneMinuteTicker
+    networks:
+      - default-network
+    depends_on:
+      - "mysql"
+      - "getDataApi"
+
+  fiveMinuteTicker:
+    build:
+      dockerfile: ./docker/five-minute.dockerfile
+      context: .
+    image: lucas/fiveminuteticker
+    container_name: fiveMinuteTicker
+    networks:
+      - default-network
+    depends_on:
+      - "mysql"
+      - "getDataApi"
+      - "oneMinuteTicker"
+  
+  tenMinuteTicker:
+    build:
+      dockerfile: ./docker/ten-minute.dockerfile
+      context: .
+    image: lucas/tenminuteticker
+    container_name: tenMinuteTicker
+    networks:
+      - default-network
+    depends_on:
+      - "mysql"
+      - "getDataApi"
+      - "fiveMinuteTicker"
+
+networks:
+  default-network:
+    driver: bridge

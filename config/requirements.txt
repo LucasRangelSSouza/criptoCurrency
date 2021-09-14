@@ -1,0 +1,6 @@
+requests
+pandas
+apscheduler
+datetime
+mysqlclient
+sqlalchemy

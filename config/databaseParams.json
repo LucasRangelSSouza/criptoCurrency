@@ -1,0 +1,8 @@
+{"tecnologia":"mysql",
+"user":"admin", 
+"password":"789123", 
+"serverInternal":"mysql", 
+"portInternal":"3306", 
+"serverExternal":"localhost", 
+"portExternal":"3300",  
+"database":"currency"}
