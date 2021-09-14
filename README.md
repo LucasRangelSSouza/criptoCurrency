@@ -1,4 +1,4 @@
-[![N|Solid](https://github.com/LucasRangelSSouza/criptoCurrency/blob/main/utils/capa.jpg)
+![N|Solid](https://github.com/LucasRangelSSouza/criptoCurrency/blob/main/utils/capa.jpg)
 
 # Programa: Cripto Currency
 Este é um cliente desenvolvido em python e docker para obter dados dos preços de execução (cotações) de criptomoedas reportadas em tempo real, através de uma API pública,o sistema processa estas cotações e as 
@@ -65,7 +65,7 @@ Apos instalado o docker em seu ambiente clone o repositorio.
 
 * Abaixo é possivel ver o passo a passo de forma ilustrada de como se conecta ao banco via mysql workbench, bem como uma analisé rapida da estrutura do banco.
 
-    ![](hhttps://github.com/LucasRangelSSouza/criptoCurrency/blob/main/utils/workbench.gif)
+    ![](https://github.com/LucasRangelSSouza/criptoCurrency/blob/main/utils/workbench.gif)
 	
 	
 ## Estrutura do banco de dados
