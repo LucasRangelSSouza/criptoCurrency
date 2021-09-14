@@ -46,7 +46,7 @@ Apos instalado o docker em seu ambiente clone o repositorio.
     ![](https://github.com/LucasRangelSSouza/criptoCurrency/blob/main/utils/docker.gif)
 
 ###### 3° Conectando ao banco de dados
-* Para conectar ao banco de dados do container recomenda-se utilizar o mysql workbench, para como instalar e configurar o mysql workbench veja mais [aqui ](https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela?gclid=Cj0KCQjwkIGKBhCxARIsAINMioLm_sclhddLQPOnX3i7hsBt3H80xZ5-ENvxbmmUyq8ylPMDZhG7AfYaAtYnEALw_wcB.
+* Para conectar ao banco de dados do container recomenda-se utilizar o mysql workbench, para como instalar e configurar o mysql workbench veja mais [aqui ](https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela?gclid=Cj0KCQjwkIGKBhCxARIsAINMioLm_sclhddLQPOnX3i7hsBt3H80xZ5-ENvxbmmUyq8ylPMDZhG7AfYaAtYnEALw_wcB).
 
 * Por padrão as credenciais para acesso externo ao docker são:
 
