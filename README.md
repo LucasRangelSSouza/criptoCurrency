@@ -12,7 +12,7 @@ comando returnTicker).
 O programa é ser executado utilizando o docker compose, para tanto instale configure o docker em seu ambiente para testar a aplicação.
 Apos instalado o docker em seu ambiente clone o repositorio.
 
-###### 3º Clone o repositorio criptoCurrency
+###### 1º Clone o repositorio criptoCurrency
 * Abra o o terminal de comandos do seu SO
 * Navegue até um diretorio pre-existente de sua escolha:
     ```
@@ -24,7 +24,7 @@ Apos instalado o docker em seu ambiente clone o repositorio.
     ```
 * Aguarde até que o download dos arquivos finalize
 
-###### 4º Execute o docker compose
+###### 2º Execute o docker compose
 * Abra o o terminal de comandos do seu SO e Navegue até o diretorio onde o repositorio foi clonado:
     ```
     C:\> chdir C:\MeuDiretorio\criptoCurrency
@@ -45,7 +45,7 @@ Apos instalado o docker em seu ambiente clone o repositorio.
     
     ![](https://github.com/LucasRangelSSouza/criptoCurrency/blob/main/utils/docker.gif)
 
-###### Conectando ao banco de dados
+###### 3° Conectando ao banco de dados
 * Para conectar ao banco de dados do container recomenda-se utilizar o mysql workbench, para como instalar e configurar o mysql workbench veja mais [aqui ](https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela?gclid=Cj0KCQjwkIGKBhCxARIsAINMioLm_sclhddLQPOnX3i7hsBt3H80xZ5-ENvxbmmUyq8ylPMDZhG7AfYaAtYnEALw_wcB.
 
 * Por padrão as credenciais para acesso externo ao docker são:
