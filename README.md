@@ -1,7 +1,4 @@
-# criptoCurrency
-Obtem candystickers de 1,5 e 10 minutos de 368 cryptomoedas da api publica da https://poloniex.com/
-
-[![N|Solid](https://eventos.ifg.edu.br/semanai2c/wp-content/uploads/sites/7/2016/08/marca-ifg-2015-todas-as-verses.png)](https://www.ifg.edu.br/goiania)
+[![N|Solid](https://github.com/LucasRangelSSouza/criptoCurrency/blob/main/utils/capa.jpg)
 
 # Programa: Cripto Currency
 Este é um cliente desenvolvido em python e docker para obter dados dos preços de execução (cotações) de criptomoedas reportadas em tempo real, através de uma API pública,o sistema processa estas cotações e as 
@@ -46,7 +43,7 @@ Apos instalado o docker em seu ambiente clone o repositorio.
     ```
 * Abaixo é possivel ver o passo a passo de forma ilustrada 
     
-    ![](https://github.com/LucasRangelSSouza/blink8051/blob/main/gifs/CarregandoHex.gif)
+    ![](https://github.com/LucasRangelSSouza/criptoCurrency/blob/main/utils/docker.gif)
 
 ###### Conectando ao banco de dados
 * Para conectar ao banco de dados do container recomenda-se utilizar o mysql workbench, para como instalar e configurar o mysql workbench veja mais [aqui ](https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela?gclid=Cj0KCQjwkIGKBhCxARIsAINMioLm_sclhddLQPOnX3i7hsBt3H80xZ5-ENvxbmmUyq8ylPMDZhG7AfYaAtYnEALw_wcB.
@@ -68,7 +65,7 @@ Apos instalado o docker em seu ambiente clone o repositorio.
 
 * Abaixo é possivel ver o passo a passo de forma ilustrada de como se conecta ao banco via mysql workbench, bem como uma analisé rapida da estrutura do banco.
 
-    ![](https://github.com/LucasRangelSSouza/blink8051/blob/main/gifs/CarregandoHex.gif)
+    ![](hhttps://github.com/LucasRangelSSouza/criptoCurrency/blob/main/utils/workbench.gif)
 	
 	
 ## Estrutura do banco de dados
