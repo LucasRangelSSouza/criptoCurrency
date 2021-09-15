@@ -75,7 +75,9 @@ Apos instalado o docker em seu ambiente clone o repositorio.
 	
 	
 ## Estrutura do banco de dados
-* O banco de dados possui uma tabela TEMP, o qual tem dados de candles com uma periodicidade de 1 segundo dos ultimos 15 minutos de execução do programa, ele tambem possui a tabela CANDLESTICKS, no qual estão hospedados os dados dos cancles de 1 minuto, 5 minutos e 10 minutos de todas as 387 moedas oferecidas pela api da poloniex
+* O banco de dados possui uma tabela TEMP, o qual tem dados de candles com uma periodicidade de 1 segundo dos ultimos 15 minutos de execução do programa, ele tambem possui a tabela CANDLESTICKS, no qual estão hospedados os dados dos cancles de 1 minuto, 5 minutos e 10 minutos de todas as 387 moedas oferecidas pela api da poloniex. Abaixo é possivel verificar o esquema do banco de dados.
+
+    ![](https://github.com/LucasRangelSSouza/criptoCurrency/blob/main/utils/database.png)
 
 
 ## Estrutura da aplicação
