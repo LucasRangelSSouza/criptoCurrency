@@ -70,7 +70,7 @@ def perMinuteTicker():
     #Insere os candles na base dados
     ticker = ticker.reset_index()
     ticker = ticker[['CRIPTOMOEDA', 'ABERTURA','FECHAMENTO','MAXIMO','MINIMO','DATETIME','PERIODICIDADE']]
-    ticker.to_sql('CANDYSTICKS',con=database_connection,if_exists='append', index=False)
+    ticker.to_sql('CANDLESTICKS',con=database_connection,if_exists='append', index=False)
 
     #Caso a flag de delete seja True deleta todos os dados com idade superior a 15minutos
     if deleteAfterInsert:

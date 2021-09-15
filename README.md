@@ -75,16 +75,16 @@ Apos instalado o docker em seu ambiente clone o repositorio.
 	
 	
 ## Estrutura do banco de dados
-* O banco de dados possui uma tabela TEMP, o qual tem dados de candles com uma periodicidade de 1 segundo dos ultimos 15 minutos de execução do programa, ele tambem possui a tabela CANDYSTICKS, no qual estão hospedados os dados dos cancles de 1 minuto, 5 minutos e 10 minutos de todas as 387 moedas oferecidas pela api da poloniex
+* O banco de dados possui uma tabela TEMP, o qual tem dados de candles com uma periodicidade de 1 segundo dos ultimos 15 minutos de execução do programa, ele tambem possui a tabela CANDLESTICKS, no qual estão hospedados os dados dos cancles de 1 minuto, 5 minutos e 10 minutos de todas as 387 moedas oferecidas pela api da poloniex
 
 
 ## Estrutura da aplicação
 A aplicação é estruturada em 5 containers:
 * Container mysql - Este container hospeda o serviço do banco de dados MySql
 * Container getDataApi - Este container obetem os candles com uma periodicidade de 1 segundo e salva na tablea TEMP do banco de dados.
-* Container oneMinuteTicker - Este container formulas os candles de 1 minutos e os salva na tabela CANDYSTICKS
-* Container fiveMinuteTicker - Este container formulas os candles de 5 minutos e os salva na tabela CANDYSTICKS
-* Container tenMinuteTicker - Este container formulas os candles de 10 minutos e os salva na tabela CANDYSTICKS bem como remove os candles com idade superios a 15 minutos da tabela TEMP
+* Container oneMinuteTicker - Este container formulas os candles de 1 minutos e os salva na tabela CANDLESTICKS
+* Container fiveMinuteTicker - Este container formulas os candles de 5 minutos e os salva na tabela CANDLESTICKS
+* Container tenMinuteTicker - Este container formulas os candles de 10 minutos e os salva na tabela CANDLESTICKS bem como remove os candles com idade superios a 15 minutos da tabela TEMP
 
 ----
 ### Licença
